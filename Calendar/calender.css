@@ -30,7 +30,8 @@ a:hover {
 }
 
 .rectangle-containing-calendar {
-    background: rgba(255, 255, 255, 0.95);
+    background: linear-gradient(to right,#ceedf6,#d8edff,#e5e9ff,#f5f2fe);
+    /* -webkit-text-fill-color: transparent; */
     box-shadow: -70px -71px 83px -28px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     margin: 11% 5%;
@@ -45,7 +46,7 @@ body {
     height: 4000px;
     left: -76px;
     top: -371px; */
-    background: url(WireUs-CurrentView2.png);
+    background-color:black;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -59,22 +60,62 @@ body {
 }
 
 .heading {
-    font-family: Montserrat;
+    font-family:"Trebuchet MS" sans-serif;
+    color: #98bbfd;
+    font-weight: bold;
     font-style: normal;
     font-size: 27.6042px;
     line-height: 28px;
-    color: #27272F;
+    
     width: 596px;
 }
 
+.click-to-go-back{
+    color: #98bbfd;
+}
 .topic-display-container {
-    background: #6B50AD;
+    background-image: url(replacepandawireus.jpeg);
     border-radius: 30px;
     padding: 2%;
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: center;
+    margin: 10% 0%;
 }
+.checkbox{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.checkbox__input{
+    display:none;
+}
+.checkbox__box{
+    width:1.25em;
 
+    height: 1.25em;
+    background:linear-gradient(to right,#ceedf6,#d8edff,#e5e9ff,#f5f2fe);
+    border:2px solid;
+    border-radius: 8px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:10px;
+    flex-shrink: 0;
+}
+.checkbox__box::after {
+   content: '\2714';
+    color:#FFFFFF}
+
+
+
+
+.checkbox__input:checked + .checkbox__box{
+   background: #88ef88;
+
+}
 .underline {
-    border: 2px solid #27272F;
+    border: 2px solid #98bbfd;
     border-radius: 5px;
     margin-top: 5px;
 }
@@ -84,41 +125,52 @@ body {
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
+   color: #c1aafa;
     font-size: 25.8529px;
     /* line-height: 62px; */
     /* or 82% */
     /* text-align: center; */
-    color: #FFF7ED;
+    
     line-height: 200%;
 }
 
 .heading1 {
-    font-family: Poppins;
+    font-family: "Trebuchet MS" sans-serif;
     font-style: normal;
+    color: #98bbfd;
+    font-size: 200%;
     font-weight: bold;
     text-align: center;
-    margin: 0;
-    font-size: 75px;
-    line-height: 75px;
-    color: #FFFFFF;
+    position:absolute;
+   bottom:10px;
+    margin-left: 150px;
+    font-size: 20px;
+    line-height: 80px;
+    
 }
 
 .heading2 {
-    font-family: Poppins;
+    font-family: "Trebuchet MS" sans-serif;
     font-style: normal;
+    color:  #98bbfd;
+    font-size: 100%;
     font-weight: bold;
-    text-align: center;
+    text-align: right;
+    position: absolute;
+    bottom:5px;
     margin: 0;
-    color: #FFFFFF;
+    
 }
 
-.background-panda {
-    background: url(panda1.png);
+/*.background-panda {
+    background: url(replacepandawireus.jpeg);
+    
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: fill;
     background-position: center;
     margin: 10% 0%;
-}
+}*/
+
 
 .challenge-topic-first {
     font-size: 99px;
@@ -139,8 +191,8 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    color: #252019;
-    background: #6B50AD;
+    color:#98bbfd;
+    background:#98bbfd ;
     border-radius: 105px;
     margin: 1%;
     padding: 5px;

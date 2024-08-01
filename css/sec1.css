@@ -63,7 +63,7 @@ a.activenav {
 }
 
 .nav {
-    background: linear-gradient(0deg, #8390BE, #8390BE);
+    background: black;/*linear-gradient(0deg, #010100, #010100);*/
 }
 
 .navbar-center {
@@ -73,11 +73,12 @@ a.activenav {
 }
 
 .firstsection {
-    background: linear-gradient(0deg, #8390BE, #8390BE);
+    background: linear-gradient(0deg,#010100, #010100);
 }
 
 .heading-sec {
-    background: url(../assets/top-back.png);
+    background-color: #010100;
+    /*background-image:"page 1 five books image.jpg" ;*/
     background-size: 90% auto;
     border-radius: 5px;
     background-position: center;
@@ -87,7 +88,10 @@ a.activenav {
     background-size: cover;
     margin: 0 10%;
     height: 95vh;
+    
 }
+
+
 
 .wireuslogo {
     height: 20px;
@@ -116,10 +120,12 @@ a.activenav {
 
 .head {
     padding-top: 15px;
-    font-family: Poppins;
+    font-family:  "Trebuchet MS",sans-serif;
     font-style: normal;
     font-weight: bold;
-    color: #0E131F;
+    background: linear-gradient(to right,#83eda8,#6ae5be,#6ae2e1,#84d1f5,#a3c6ff,#c1aafa);
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
     /* margin: 0 auto; */
     font-size: 95px;
 }
@@ -128,22 +134,27 @@ a.activenav {
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
+    font-family:  "Trebuchet MS",sans-serif;
+    color: #fcfaff;
     line-height: 45px;
     width: 65%;
     padding-top: 2%;
 }
 
+
 .learnmore {
-    background: #1D1D41;
-    box-shadow: 0px 3.29757px 3.29757px rgba(0, 0, 0, 0.25);
+    background: #7ee999;
+    box-shadow: 0px 3.29757px 3.29757px rgba(136,229,155,255);
     border-radius: 173.122px;
+    border-color: #7ee999;
     padding: 1% 4%;
     color: #FDFDFC;
-    font-family: TT Norms;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
     margin-top: 10%;
 }
+
 
 .downarrow {
     font-size: 36px;

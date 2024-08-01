@@ -1,25 +1,58 @@
     .page-footer {
         flex-shrink: none;
-        background: #E2E2E2;
+        background: linear-gradient(to right,#ceedf6,#d8edff,#e5e9ff,#f5f2fe);
+        /*-webkit-text-fill-color: transparent;*/
+        padding: 5px;
+        
+        
     }
-    
-    .madewith {
-        font-family: Poppins;
+    .footer {
+         padding:40px 0;
+         background: linear-gradient(to right,#ceedf6,#d8edff,#e5e9ff,#f5f2fe);
+
+    }
+    .follow{
+        text-align: center;
+        font-family: "Trebuchet MS" sans-serif;
         font-style: normal;
         font-weight: bold;
-        color: black;
+        background:linear-gradient(to right,#83eda8,#6ae5be,#6ae2e1,#84d1f5,#a3c6ff,#c1aafa);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-size: 27px;
+
+    }
+    .footer .social{
+        text-align:center;
+        padding-bottom: 20px;
+        margin-left:30px;
+    }
+
+    
+    .madewith {
+        font-family: "Trebuchet MS" sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        border-radius: 2px;
+        border-color:linear-gradient(to right,#83eda8,#6ae5be,#6ae2e1,#84d1f5,#a3c6ff,#c1aafa);
+        background: linear-gradient(to right,#83eda8,#6ae5be,#6ae2e1,#84d1f5,#a3c6ff,#c1aafa);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
     }
     
     .by {
-        font-family: Poppins;
+        font-family: "Trebuchet MS" sans-serif;
         font-style: normal;
         font-weight: normal;
-        color: black;
+        background:linear-gradient(to right,#83eda8,#6ae5be,#6ae2e1,#84d1f5,#a3c6ff,#c1aafa);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
         font-size: 27px;
     }
     
     @media (max-width:550px) {
         .page-footer {
             display: none;
+            /*color:  #c1aafa;*/
         }
     }

@@ -9,20 +9,26 @@
  }
  
  .signupforc {
-     font-family: Poppins;
+     font-family:  "Trebuchet MS",sans-serif;
+     background: linear-gradient(to right,#83eda8,#6ae5be,#6ae2e1,#84d1f5,#a3c6ff,#c1aafa);
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
      font-style: normal;
      font-weight: bold;
      line-height: 55px;
      /* or 100% */
      text-align: center;
      font-size: 65px;
-     color: #3D3434;
+     color:( #4A346E);
+     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; ;
  }
  
  .beginchallenge {
-     background: #1D1D41;
-     box-shadow: 0px 3.29757px 3.29757px rgba(0, 0, 0, 0.25);
+     background: #88e59b;
+     box-shadow: 0px 3.29757px 3.29757px #88e59b;
      border-radius: 173.122px;
+     border-color: #88e59b;
      padding: 1% 10%;
      color: #FDFDFC;
      font-family: TT Norms !important;
@@ -32,7 +38,8 @@
  }
  
  .recbox-topics {
-     background: #F9F5F1;
+     background:#000000 ;
+     
  }
  /* .recbox-topics row {
      margin: 2% 5%;
@@ -40,7 +47,7 @@
  } */
  
  div.logo {
-     background: #1D1D41;
+     background: D0D5FC;
      border-radius: 50%;
      margin: auto;
      margin: 10% 5%;
@@ -48,9 +55,12 @@
      padding: 7% 0;
  }
  
- .text {
+ .col-sm-6 text {
      margin: 10% 2%;
      padding: 0 5%;
+    background:  ( #c1aafa);
+     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
  }
  
  .topicimg {
@@ -67,23 +77,28 @@
      min-height: 95%;
      /* min-width: 100%; */
      margin: 2% 4%;
-     background: #E2E2E2;
+     background:linear-gradient(to right,#ceedf6,#d8edff,#e5e9ff,#f5f2fe);
+     /* -webkit-text-fill-color: transparent; */
+     
      border-radius: 25px;
      box-shadow: 5px 5px 3.29757px 3.29757px rgba(8, 8, 8, 0.151);
  }
  
  .text-head {
-     font-family: Montserrat;
+     font-family: "Trebuchet MS",sans-serif;
+    color:#4A346E;
      font-style: normal;
      font-weight: bold;
      font-size: xx-large;
      line-height: 20px;
  }
  
+ 
  .text>p {
      font-family: Montserrat;
      font-style: normal;
      font-weight: 500;
+     color:#4A346E;
  }
  
  .d-lg-none .webdev,

@@ -1,12 +1,19 @@
   img {
       margin: 0 auto;
-      border-radius: 15%;
+      /*border-radius: 15%;*/
+      border-color: linear-gradient(to right,#ceedf6,#d8edff,#e5e9ff,#f5f2fe);
+      -webkit-text-fill-color: transparent;
+      border-width: 20px;
+      
+      ;
   }
   
   body {
-      background: linear-gradient(0deg, #ffffff, #ffffff83);
+      background-color:black;
   }
-  
+  .container{
+    background:black;
+  }
   .mentors,
   .technical,
   .management,
@@ -26,15 +33,15 @@
         }*/
   
   .d-block {
-      width: 100%;
+      width: 50%;
   }
   
   .twoinrow {
-      width: 65%;
+      width: 50%;
   }
   
   .oneinrow {
-      width: 30%;
+      width: 50%;
   }
   
   hr.sectionhr {
@@ -72,10 +79,10 @@
   }
   
   .text-center {
-      font-family: Poppins;
+      font-family:  "Trebuchet MS",sans-serif;
       font-style: normal;
       font-weight: bold;
-      color: #0E131F;
+      color: #c1aafa;
       font-size: xx-large;
   }
   
